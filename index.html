@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/20c24382ba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="branName">
+                <h2>WRIGHT</h2>
+            </div>
+        <div class="navs" id="sidemenu">
+                <a href="#header">Home</a>
+                <a href="#about-me">About</a>
+                <a href="#services">Services</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+               <p class="close" onclick="closemenu()"> x</p>
+        </div>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      
+       
+        <div class="header-section">
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'am Wright Kuku<br>from <span>Sudan</span></h1>
+            </div>
+            <div class="myimage1">
+                <img src="images/user2.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- about me section -->
+    <div id="about-me">
+        <div class="row">
+            <div class="col-one">
+                <img src="images/user1.jpeg" alt="">
+            </div>
+            <div class="col-two">
+                <h1>About Me</h1>
+                <p>
+                    
+                    Hi! I'm Wright Kuku. I studied computer science at Jomo Kenyatta University of Agriculture and Technology. <br>Iam passionate  about  making things and solving problems with technology and therefore
+                    
+                    Iam into coding, web development, graphic design and a soon to develop interest into artificial intelligence. <br>
+                    
+                    When I'm not on my computer, I like reading documentations, playing cards and listening to Bongo Music. <br>
+                    
+                    
+                </p>
+                <div class="tap-titles">
+                    <p class="tap-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tap-links" onclick="opentab('experience')">Experiences</p>
+                    <p class="tap-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tap-contents active-tap" id="skills">
+                    <ul>
+                        <li><span>Programmer</span><br>Python, javascript, Nodejs,SQL</li>
+                        <li><span>Web design</span><br>Designing and Developing web applications</li>
+                        <li><span>Graphic design</span><br>skilled in graphic designing</li>
+                    </ul>
+                </div>
+                <div class="tap-contents" id="experience">
+                    <ul>
+                        <li><span>Teacher:2019-2021 </span><br> GreenLight secondary school</li>
+                        <li><span>Secretary General: 2021-date</span><br>Kadar Initiative for community Empowerment</li>
+                        <li><span> web Trainer: 2024</span><br>Advocacy Initiative for youth Empowerment</li>
+                        <li><span> Arabic Translater:2024</span><br>International Organization for Immigration</li>
+                        <li><span>internship: 2023</span><br>THEE JITU Software company</li>
+                    </ul>
+                </div>
+                <div class="tap-contents" id="education">
+                    <ul>
+                        <li><span>2019-2024 JKUAT</span><br>Bachelors Degree Computer science</li>
+                        <li><span>2015-2018 GLSS</span><br>Kenya Certificate of Secondary Education <span>B plain</span></li>
+                        <li><span>2012-2014 PALOTAKA PRI</span><br>Kenya Certificate of Secondary Education <span>359/500 marks</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services-section -->
+    <div id="services">
+        <h1>My Services</h1>
+        <div class="services">
+            <div class="service">
+                <div>
+                <i class="fa-solid fa-computer"></i>
+                <h3>programming</h3>
+                <p> From front-end development using HTML, CSS, and JavaScript to back-end programming with languages like Python, Nodejs and SQL,</p>
+                <div class="learn-more">
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            </div>
+            <div class="service">
+                <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>I design and Develop web applications both static and dynamic websites</p>
+                <div class="learn-more">
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="service">
+                <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h3>graphic designer</h3>
+                <p>Through a blend of creativity and technical skill, I design captivating graphics, logos, banners and branding materials that resonate with audiences and leave a lasting impression</p>
+                <div class="learn-more">
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+            </div>
+           
+        </div>
+    </div>
+
+    <!-- my work -->
+    <div id="project">
+        <h1>My project</h1>
+        <div class="projects">
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+            <div class="layer">
+                <h2>Chatbot</h2>
+                <p>This is an application created to answer frequently asked questions in the Jomo Kenyatta University.</p>
+               <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+            <div class="layer">
+                <h2>Hotel app</h2>
+                <p>This is a website that is used for booking and showing the services offered by hotel</p>
+              <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+            </div>
+            </div>
+        
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+            <div class="layer">
+                <h2>whether app</h2>
+                <p>This is an app that is used to show weather conditions in different places</p>
+               <a href=""> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact-me section -->
+
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <div class="contact-me">
+            <div class="form-container">
+                <form name="submit-to-google-sheet">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" placeholder="Enter your names" required><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="email" id="" placeholder="Enter Email" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="" cols="50" rows="5" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Submit" class="submit">
+                </form>
+                <span id="msg"></span>
+
+            </div>
+            <h4>Social Media Handles</h4>
+            <i class="fa-regular fa-envelope"></i><p>wrightkuku@gmail.com</p>
+            <i class="fa-solid fa-phone"></i><p>+254797317177</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/wright.kuku.5"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/wright.kuku?igsh=YzljYTk1ODg3Zg=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/kuku-ali-55a744202"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="http://tiktok.com/@wrightkuku"><i class="fa-brands fa-tiktok"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                 
+            </div>
+            <a href="images/CV.pdf" download class="cv">Download CV</a>
+        </div> 
+    </div>
+    </div>
+    <div class="footer">
+        <p>All rights reserved | <i class="fa-solid fa-heart"></i>Wright kuku<i class="fa-solid fa-heart"></i>| @2024</p>
+    </div>
+  
+    <script>
+        var tabLinks=document.getElementsByClassName("tap-links");
+        var tabContents=document.getElementsByClassName("tap-contents");
+        function opentab(tapname){
+            for(taplink of tabLinks){
+                taplink.classList.remove("active-link");
+            }
+            for(tabcontent of tabContents){
+                tabcontent.classList.remove("active-tap");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tapname).classList.add("active-tap")
+        }
+    
+    </script>
+
+    <script>
+
+    sidemenu=document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right="0"
+
+    }
+    function closemenu(){
+        sidemenu.style.right="-150px"
+    }
+
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyofvne0r8KDl9No6WfzVaaqoCwTTd5IWT-rcAzQCkFrfH9w1jiUmSiyROY-Z5kNliFzw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully to Wright Kuku"
+                setTimeout(() => {
+                    msg.innerHTML = ""
+                }, 3000);
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
